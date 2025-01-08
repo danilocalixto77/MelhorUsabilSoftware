@@ -14,8 +14,8 @@ Dica para acelerar aprendizado e consumo de conteúdo, extensão do Google Chrom
 
 ## 2 - Como melhorar a usabilidade do seu software (26 Aulas)
 
-#### 2.1 - 
+#### 2.1 - A importância de olhar para o Usuário
 
-#### 2.2 - 
+#### 2.2 - Tudo gira em torno da experiência do usuário
 
-#### 2.3 - 
+#### 2.3 - Coleta de Dados, a parte mais importante para aprimorar a UX
