@@ -19,3 +19,15 @@ Dica para acelerar aprendizado e consumo de conteúdo, extensão do Google Chrom
 #### 2.2 - Tudo gira em torno da experiência do usuário
 
 #### 2.3 - Coleta de Dados, a parte mais importante para aprimorar a UX
+
+#### 2.4 - Utilizando o Google Analitycs no Delphi
+
+Através do Google Analitycs é possível monitorar e acompanhar a aplicação Delphi, há uma DLL  que possibilita isso.
+
+Nome da DLL para Win32: **libsoftMeter.dll**
+
+Nome da DLL para Win64: **libsoftMeter64bit.dll**
+
+Abaixo no link o projeto que viabiliza a aplicação da dll.
+
+[Github para download](https://github.com/starmessage/libSoftMeter/blob/master/samples/Delphi-Pascal/delphi-gui-demo/softMeter_globalVar.pas)
