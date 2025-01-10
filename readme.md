@@ -10,17 +10,17 @@ Dica para acelerar aprendizado e consumo de conteúdo, extensão do Google Chrom
 
 [Plugin Extensão Chrome - Acelerar vídeo](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=pt-BR&utm_source=chrome-ntp-launcher)
 
-#### 1.3 - Como utilizar o Portal do Aluno
+##### 1.3 - Como utilizar o Portal do Aluno
 
 ## 2 - Como melhorar a usabilidade do seu software (26 Aulas)
 
-#### 2.1 - A importância de olhar para o Usuário
+##### 2.1 - A importância de olhar para o Usuário
 
-#### 2.2 - Tudo gira em torno da experiência do usuário
+##### 2.2 - Tudo gira em torno da experiência do usuário
 
-#### 2.3 - Coleta de Dados, a parte mais importante para aprimorar a UX
+##### 2.3 - Coleta de Dados, a parte mais importante para aprimorar a UX
 
-#### 2.4 - Utilizando o Google Analitycs no Delphi
+##### 2.4 - Utilizando o Google Analitycs no Delphi
 
 Através do Google Analitycs é possível monitorar e acompanhar a aplicação Delphi, há uma DLL  que possibilita isso.
 
@@ -32,7 +32,9 @@ Abaixo no link o projeto que viabiliza a aplicação da dll.
 
 [Github para download](https://github.com/starmessage/libSoftMeter/blob/master/samples/Delphi-Pascal/delphi-gui-demo/softMeter_globalVar.pas)
 
-#### 2.5 - Perguntas e Respostas sobre a utilização do Google Analitics
+##### 2.5 - Perguntas e Respostas sobre a utilização do Google Analitics
+
+##### 2.6 - Introdução a Criação de Componentes Visuais
 
 
 
