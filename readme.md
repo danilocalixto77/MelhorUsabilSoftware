@@ -31,3 +31,8 @@ Nome da DLL para Win64: **libsoftMeter64bit.dll**
 Abaixo no link o projeto que viabiliza a aplicação da dll.
 
 [Github para download](https://github.com/starmessage/libSoftMeter/blob/master/samples/Delphi-Pascal/delphi-gui-demo/softMeter_globalVar.pas)
+
+#### 2.5 - Perguntas e Respostas sobre a utilização do Google Analitics
+
+
+
