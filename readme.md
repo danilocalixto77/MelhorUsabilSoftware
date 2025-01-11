@@ -36,5 +36,11 @@ Abaixo no link o projeto que viabiliza a aplicação da dll.
 
 ##### 2.6 - Introdução a Criação de Componentes Visuais
 
+##### 2.7 - Criando Templates de Componentes
+
+Através da opção abaixo possibilita criar um template de um componente com configuração, parêmatros, modificados, por exemplo um caption vazio, como normalmente se faz todas as vezes em que se cria um novo panel, ou o lines 0 de um Memo e assim por diante.
+
+        Component | Create Componente Template...
+
 
 
