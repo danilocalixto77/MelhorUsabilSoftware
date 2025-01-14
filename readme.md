@@ -42,4 +42,7 @@ Através da opção abaixo possibilita criar um template de um componente com co
 
         Component | Create Componente Template...
 
-#### 2.8 - 
+#### 2.8 - Trabalhando com cores Hexadecimal
+
+Delphi trabalha no padrão BGR é necessário inverter pois quando é capturada uma cor, normalmente vem no padrão RGB, basta inverter os valores no campo color do Panel.
+
