@@ -46,3 +46,5 @@ Através da opção abaixo possibilita criar um template de um componente com co
 
 Delphi trabalha no padrão BGR é necessário inverter pois quando é capturada uma cor, normalmente vem no padrão RGB, basta inverter os valores no campo color do Panel.
 
+#### 2.9 - ......
+
