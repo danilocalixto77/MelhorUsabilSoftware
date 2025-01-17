@@ -50,3 +50,9 @@ Delphi trabalha no padrão BGR é necessário inverter pois quando é capturada 
 
 #### 2.10 - Registrando o Componente Visual
 
+Criar procedure Register e dentro da procedure procurar a procedure:
+
+        RegisterComponents('NomeNaPaleta', [ClasseDoComponente])
+
+#### 2.11 - Criando Propriedades do Componente..... proxima aula....
+
