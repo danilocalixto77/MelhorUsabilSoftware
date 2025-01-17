@@ -54,5 +54,7 @@ Criar procedure Register e dentro da procedure procurar a procedure:
 
         RegisterComponents('NomeNaPaleta', [ClasseDoComponente])
 
-#### 2.11 - Criando Propriedades do Componente..... proxima aula....
+#### 2.11 - Criando Propriedades do Componente.
+
+inicioa......
 
