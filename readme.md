@@ -60,4 +60,8 @@ Para criar propriedade para o Object inspector do Delphi de um componente, deve-
 
 #### 2.12 - Trabalhando a Jornada do Usuário com Quanti-UX
 
+#### 2.13 - UX Aplicada a tela de Nota Fiscal Eletrônica
+
+#### 2.14 - Boas práticas para telas de pesquisa
+
 
