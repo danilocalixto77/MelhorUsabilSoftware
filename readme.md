@@ -58,4 +58,6 @@ Criar procedure Register e dentro da procedure procurar a procedure:
 
 Para criar propriedade para o Object inspector do Delphi de um componente, deve-se declarar e desenvolver um **property** na área do código **published**
 
+#### 2.12 - Trabalhando a Jornada do Usuário com Quanti-UX
+
 
