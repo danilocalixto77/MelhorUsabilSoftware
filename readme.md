@@ -64,4 +64,8 @@ Para criar propriedade para o Object inspector do Delphi de um componente, deve-
 
 #### 2.14 - Boas práticas para telas de pesquisa
 
+#### 2.15 - Analisando o Case da Leroy Merlin 
+
+        parando aqui......
+
 
