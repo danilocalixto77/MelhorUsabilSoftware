@@ -66,6 +66,16 @@ Para criar propriedade para o Object inspector do Delphi de um componente, deve-
 
 #### 2.15 - Analisando o Case da Leroy Merlin 
 
-        parando aqui......
+#### 2.16 - Criando a Organização Perfeita para Telas de VCL
+
+#### 2.17 - Como arredondar uma imagem na VCL
+
+Utilizando um panel é possivel arredendar o formato.
+
+Ver **procedure ArredeondarImagem** nos fontes
+
+
+
+
 
 
