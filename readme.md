@@ -78,6 +78,16 @@ Ver **procedure ArredeondarImagem** nos fontes
 
 Nas propriedades do form, habilite a propriedade **TrnasparentColor** = True e na propriedade **TransparentColorValue** selecione uma cor que deseja que fique rosa ao ser identificada no formulário. Rosa (fuschia) por exemplo.
 
+#### 2.19 Esmaecendo todo o fundo da tela
+
+#### 2.20 Criando um Edit Personalizado
+
+#### 2.21 Boas práticas para telas de produtos
+
+#### 2.22 Trabalhando com templates de telas e botões
+
+
+
 
 
 
