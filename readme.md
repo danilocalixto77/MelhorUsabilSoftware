@@ -74,6 +74,12 @@ Utilizando um panel é possivel arredendar o formato.
 
 Ver **procedure ArredeondarImagem** nos fontes
 
+#### 2.18 Trabalhando com Formulários Transparentes
+
+Nas propriedades do form, habilite a propriedade **TrnasparentColor** = True e na propriedade **TransparentColorValue** selecione uma cor que deseja que fique rosa ao ser identificada no formulário. Rosa (fuschia) por exemplo.
+
+
+
 
 
 
