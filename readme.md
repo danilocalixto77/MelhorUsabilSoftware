@@ -86,6 +86,20 @@ Nas propriedades do form, habilite a propriedade **TrnasparentColor** = True e n
 
 #### 2.22 Trabalhando com templates de telas e botões
 
+Ao invés de criar um novo formulário, vai em: **New Itens | Delphi | Inheritable Items** e selecione o seu form template.
+
+#### 2.23 Perguntas e Respostas sobre UX
+
+#### 2.24 Extra - Codigo UA do Google Analitycs e Biblioteca Respostas
+
+#### 2.25 Extra - Conhecendo a biblioteca DGoogleAnalytics
+
+
+
+
+
+
+
 
 
 
