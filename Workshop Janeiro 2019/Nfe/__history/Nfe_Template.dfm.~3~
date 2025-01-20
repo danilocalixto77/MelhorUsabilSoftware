@@ -1,0 +1,83 @@
+object NfeTemplate: TNfeTemplate
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'NfeTemplate'
+  ClientHeight = 465
+  ClientWidth = 847
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 847
+    Height = 465
+    Align = alClient
+    BevelOuter = bvNone
+    Color = clWhite
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 168
+    ExplicitTop = 176
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Panel2: TPanel
+      Left = 0
+      Top = 0
+      Width = 847
+      Height = 48
+      Align = alTop
+      BevelOuter = bvNone
+      Color = clWhite
+      Padding.Left = 10
+      Padding.Top = 10
+      Padding.Right = 10
+      Padding.Bottom = 10
+      ParentBackground = False
+      TabOrder = 0
+      object Label3: TLabel
+        Left = 10
+        Top = 10
+        Width = 230
+        Height = 28
+        Align = alLeft
+        AutoSize = False
+        BiDiMode = bdLeftToRight
+        Caption = 'Informa'#231#227'o de T'#237'tulo'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 7829367
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentBiDiMode = False
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitLeft = 20
+        ExplicitTop = 16
+        ExplicitHeight = 12
+      end
+    end
+    object Panel3: TPanel
+      Left = 0
+      Top = 48
+      Width = 847
+      Height = 417
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitLeft = 80
+      ExplicitTop = 136
+      ExplicitWidth = 185
+      ExplicitHeight = 41
+    end
+  end
+end

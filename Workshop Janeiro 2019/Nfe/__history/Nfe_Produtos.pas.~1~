@@ -1,0 +1,24 @@
+unit Nfe_Produtos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Nfe_Template, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TNfeTemplate1 = class(TNfeTemplate)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  NfeTemplate1: TNfeTemplate1;
+
+implementation
+
+{$R *.dfm}
+
+end.

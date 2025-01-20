@@ -1,0 +1,49 @@
+unit Nfe_Pesquisa_Resultado;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Panel1: TPanel;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure MakeRounded(Control: TWinControl);
+var
+  R: TRect;
+  Rgn: HRGN;
+begin
+  with Control do
+  begin
+    R := ClientRect;
+    rgn := CreateRoundRectRgn(R.Left, R.Top, R.Right, R.Bottom, 10, 10);
+    Perform(EM_GETRECT, 0, lParam(@r));
+    InflateRect(r, - 3, - 3);
+    Perform(EM_SETRECTNP, 0, lParam(@r));
+    SetWindowRgn(Handle, rgn, True);
+    Invalidate;
+  end;
+end;
+
+procedure TForm2.FormShow(Sender: TObject);
+begin
+  MakeRounded(Panel1);
+  Self.Top := Self.Top + 130;
+end;
+
+end.

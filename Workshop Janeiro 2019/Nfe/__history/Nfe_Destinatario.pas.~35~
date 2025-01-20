@@ -1,0 +1,177 @@
+unit Nfe_Destinatario;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Vcl.ComCtrls;
+
+type
+  TNFeDestinatario = class(TForm)
+    dest_panel1: TPanel;
+    Panel1: TPanel;
+    dest_logo: TImage;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Panel6: TPanel;
+    Panel5: TPanel;
+    Panel7: TPanel;
+    Panel8: TPanel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label2: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Shape3: TShape;
+    Label16: TLabel;
+    PageControl1: TPageControl;
+    tabEndereco: TTabSheet;
+    tabRetirada: TTabSheet;
+    Label19: TLabel;
+    Label20: TLabel;
+    Label21: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label24: TLabel;
+    Label25: TLabel;
+    Label26: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    Label30: TLabel;
+    Label31: TLabel;
+    Label32: TLabel;
+    Label33: TLabel;
+    Label34: TLabel;
+    Panel9: TPanel;
+    Panel10: TPanel;
+    Panel11: TPanel;
+    Panel12: TPanel;
+    Panel13: TPanel;
+    Panel14: TPanel;
+    Panel15: TPanel;
+    Shape1: TShape;
+    Shape4: TShape;
+    Shape5: TShape;
+    Shape6: TShape;
+    Shape7: TShape;
+    Shape8: TShape;
+    Shape9: TShape;
+    Label1: TLabel;
+    Label8: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label35: TLabel;
+    Label36: TLabel;
+    Label37: TLabel;
+    Panel16: TPanel;
+    Label38: TLabel;
+    Panel17: TPanel;
+    Panel18: TPanel;
+    procedure FormShow(Sender: TObject);
+    procedure Label8Click(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
+    procedure Panel9Click(Sender: TObject);
+    procedure Panel10Click(Sender: TObject);
+
+    procedure Panel11Click(Sender: TObject);
+    procedure Panel17Click(Sender: TObject);
+    procedure Panel18Click(Sender: TObject);
+  private
+    { Private declarations }
+    procedure ArredondarImagem(Panel : TPanel);
+    procedure OcultarTabs(PageControl : TPageControl);
+  public
+    { Public declarations }
+  end;
+
+var
+  NFeDestinatario: TNFeDestinatario;
+
+implementation
+
+uses
+  Nfe_Pesquisa, Nfe_DadosNota, Nfe_Principal, Nfe_Emitente;
+
+{$R *.dfm}
+
+procedure TNFeDestinatario.ArredondarImagem(Panel : TPanel);
+var
+  rgn: HRGN;
+  dc: HDC;
+begin
+ rgn := CreateRoundRectRgn(0, 0, Panel1.Width, Panel1.Height, 350, 350);
+  dc := GetDC(Panel1.Handle);
+  SetWindowRgn(Panel1.Handle, rgn, true);
+  ReleaseDC(Panel1.Handle, dc);
+  DeleteObject(rgn);
+end;
+
+procedure TNFeDestinatario.FormShow(Sender: TObject);
+begin
+  ArredondarImagem(Panel1);
+  OcultarTabs(PageControl1);
+end;
+
+procedure TNFeDestinatario.Label1Click(Sender: TObject);
+begin
+  NfeDadosDaNota.Parent := NfePrincipal.Panel8;
+  NfeDadosDaNota.Show;
+end;
+
+procedure TNFeDestinatario.Label8Click(Sender: TObject);
+begin
+  NFeEmitente.Parent := NfePrincipal.Panel8;
+  NFeEmitente.Show;
+end;
+
+procedure TNFeDestinatario.OcultarTabs(PageControl: TPageControl);
+var
+  page : integer;
+begin
+  for page := 0 to PageControl.PageCount - 1 do
+  begin
+    PageControl.Pages[page].TabVisible := false;
+  end;
+  PageControl.ActivePageIndex := 0;
+end;
+
+procedure TNFeDestinatario.Panel10Click(Sender: TObject);
+begin
+  PageControl1.ActivePageIndex := 1;
+end;
+
+procedure TNFeDestinatario.Panel9Click(Sender: TObject);
+begin
+  PageControl1.ActivePageIndex := 0;
+end;
+
+procedure TNFeDestinatario.Panel11Click(Sender: TObject);
+begin
+  NfePesquisa.ShowModal;
+end;
+
+procedure TNFeDestinatario.Panel17Click(Sender: TObject);
+begin
+  NFeEmitente.Parent := NfePrincipal.Panel8;
+  NFeEmitente.Show;
+end;
+
+procedure TNFeDestinatario.Panel18Click(Sender: TObject);
+begin
+  NFeProduto.Parent := NfePrincipal.Panel8;
+  NFeProduto.Show;
+end;
+
+end.

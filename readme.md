@@ -95,6 +95,13 @@ Ao invés de criar um novo formulário, vai em: **New Itens | Delphi | Inheritab
 #### 2.25 Extra - Conhecendo a biblioteca DGoogleAnalytics
 
 
+[Github DGoogleAnalytics](https://github.com/maiconsi/dgoogleAnalytics)
+
+Após download, inserir no **library path**
+
+Passo a passo para utilização da rotina para monitoramento via Google Analytics.
+
+
 
 
 

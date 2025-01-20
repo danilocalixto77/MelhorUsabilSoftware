@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D8DB6A11-D143-41D5-B460-8E8048F8DFE7}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CardLTE.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Sample\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CardLTE">
+        <MSBuild Projects="CardLTE.dproj"/>
+    </Target>
+    <Target Name="CardLTE:Clean">
+        <MSBuild Projects="CardLTE.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CardLTE:Make">
+        <MSBuild Projects="CardLTE.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project2">
+        <MSBuild Projects="Sample\Project2.dproj"/>
+    </Target>
+    <Target Name="Project2:Clean">
+        <MSBuild Projects="Sample\Project2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project2:Make">
+        <MSBuild Projects="Sample\Project2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CardLTE;Project2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CardLTE:Clean;Project2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CardLTE:Make;Project2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

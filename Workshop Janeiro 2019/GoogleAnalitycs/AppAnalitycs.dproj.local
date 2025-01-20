@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/01/26 09:43:51.133,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2019/01/26 09:46:36.406,C:\Users\thuli\Desktop\Workshop\GoogleAnalitycs\Unit6.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2019/01/26 09:46:36.406,C:\Users\thuli\Desktop\Workshop\GoogleAnalitycs\Unit6.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2019/01/26 09:46:39.169,C:\Users\thuli\Desktop\Workshop\GoogleAnalitycs\Project2.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2019/01/26 09:47:12.367,=C:\Users\thuli\Desktop\Workshop\GoogleAnalitycs\softMeter_globalVar.pas</Transaction>
+    <Transaction>2019/01/26 09:53:40.236,C:\Users\thuli\Desktop\Workshop\GoogleAnalitycs\AppAnalitycs.dproj=C:\Users\thuli\Desktop\Workshop\GoogleAnalitycs\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

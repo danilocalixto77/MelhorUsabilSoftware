@@ -1,0 +1,214 @@
+inherited NfeTemplate1: TNfeTemplate1
+  Caption = 'NfeTemplate1'
+  PixelsPerInch = 96
+  TextHeight = 17
+  inherited Panel1: TPanel
+    inherited Panel2: TPanel
+      inherited Label3: TLabel
+        Caption = 'Dados da NF-e'
+      end
+    end
+    inherited Panel3: TPanel
+      inherited Panel13: TPanel
+        inherited Panel15: TPanel
+          inherited Shape1: TShape
+            Brush.Color = 130816
+          end
+          inherited Shape5: TShape
+            Brush.Color = 11184810
+          end
+        end
+      end
+      inherited Panel10: TPanel
+        inherited Panel11: TPanel
+          ExplicitLeft = 6
+          ExplicitTop = 15
+          ExplicitWidth = 835
+          ExplicitHeight = 402
+          object Label4: TLabel
+            Left = 19
+            Top = 0
+            Width = 70
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'Modelo'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object Label2: TLabel
+            Left = 83
+            Top = 0
+            Width = 70
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'S'#233'rie'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object Label9: TLabel
+            Left = 139
+            Top = 0
+            Width = 70
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'N'#250'mero'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object Label10: TLabel
+            Left = 215
+            Top = 0
+            Width = 138
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'Data e Hora da Emiss'#227'o'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object Label12: TLabel
+            Left = 367
+            Top = 0
+            Width = 138
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'Tipo do Documento'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object Label5: TLabel
+            Left = 547
+            Top = 0
+            Width = 174
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'Data e Hora de Sa'#237'da / Entrada'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object Label6: TLabel
+            Left = 19
+            Top = 57
+            Width = 138
+            Height = 31
+            Anchors = [akTop, akRight]
+            AutoSize = False
+            BiDiMode = bdLeftToRight
+            Caption = 'Tipo do Documento'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = 7829367
+            Font.Height = -11
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentFont = False
+            Layout = tlCenter
+          end
+          object ComboBox1: TComboBox
+            Left = 367
+            Top = 24
+            Width = 162
+            Height = 25
+            TabOrder = 0
+            Text = 'Sa'#237'da'
+          end
+          object Edit1: TEdit
+            Left = 83
+            Top = 24
+            Width = 38
+            Height = 25
+            TabOrder = 1
+            Text = '002'
+          end
+          object Edit2: TEdit
+            Left = 139
+            Top = 24
+            Width = 54
+            Height = 25
+            TabOrder = 2
+            Text = '000001'
+          end
+          object Edit3: TEdit
+            Left = 215
+            Top = 24
+            Width = 130
+            Height = 25
+            TabOrder = 3
+            Text = '14/03/2018 13:41'
+          end
+          object Edit4: TEdit
+            Left = 19
+            Top = 24
+            Width = 38
+            Height = 25
+            TabOrder = 4
+            Text = '55'
+          end
+          object Edit5: TEdit
+            Left = 547
+            Top = 24
+            Width = 174
+            Height = 25
+            TabOrder = 5
+            Text = '14/03/2018 13:41'
+          end
+          object ComboBox2: TComboBox
+            Left = 19
+            Top = 81
+            Width = 174
+            Height = 25
+            TabOrder = 6
+            Text = 'Sa'#237'da'
+          end
+        end
+      end
+    end
+  end
+end

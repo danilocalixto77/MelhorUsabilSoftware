@@ -1,0 +1,68 @@
+unit CardLTE;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TLTECard = class(TFrame)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    lbTextTitle: TLabel;
+    lbTextValue: TLabel;
+    Label3: TLabel;
+    Shape1: TShape;
+    Shape2: TShape;
+    Image1: TImage;
+  private
+    FTextTitle: String;
+    FTextValue: Currency;
+    FProgressValue: Integer;
+    procedure SetTextTitle(const Value: String);
+    procedure SetTextValue(const Value: Currency);
+    procedure SetProgressValue(const Value: Integer);
+    { Private declarations }
+  public
+    { Public declarations }
+  published
+    property TextTitle : String read FTextTitle write SetTextTitle;
+    property TextValue : Currency read FTextValue write SetTextValue;
+    property ProgressValue : Integer read FProgressValue write SetProgressValue;
+  end;
+
+procedure Register;
+
+implementation
+
+{$R *.dfm}
+
+procedure Register;
+begin
+  RegisterComponents('LTE Components', [TLTECard]);
+end;
+
+{ TLTECard }
+
+procedure TLTECard.SetProgressValue(const Value: Integer);
+begin
+  FProgressValue := Value;
+  Shape2.Width := Round(Value * (Shape1.Width / 100));
+end;
+
+procedure TLTECard.SetTextTitle(const Value: String);
+begin
+  FTextTitle := Value;
+  lbTextTitle.Caption := FTextTitle;
+end;
+
+procedure TLTECard.SetTextValue(const Value: Currency);
+begin
+  FTextValue := Value;
+  lbTextValue.Caption := FormatCurr('#,##0.00', FTextValue);
+end;
+
+end.

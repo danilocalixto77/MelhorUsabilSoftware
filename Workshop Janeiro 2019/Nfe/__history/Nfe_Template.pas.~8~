@@ -1,0 +1,88 @@
+unit Nfe_Template;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TNfeTemplate = class(TForm)
+    Panel2: TPanel;
+    Label3: TLabel;
+    Panel1: TPanel;
+    Panel3: TPanel;
+    Panel13: TPanel;
+    Panel15: TPanel;
+    Shape1: TShape;
+    Shape4: TShape;
+    Shape5: TShape;
+    Shape6: TShape;
+    Shape7: TShape;
+    Shape8: TShape;
+    Shape9: TShape;
+    Label1: TLabel;
+    Label8: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label35: TLabel;
+    Label36: TLabel;
+    Label37: TLabel;
+    Panel10: TPanel;
+    Panel11: TPanel;
+    Panel16: TPanel;
+    Label38: TLabel;
+    Panel14: TPanel;
+    Panel20: TPanel;
+    procedure Label17Click(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
+    procedure Label8Click(Sender: TObject);
+  private
+    { Private declarations }
+    procedure ArredondarImagem(Panel : TPanel);
+  public
+    { Public declarations }
+  end;
+
+var
+  NfeTemplate: TNfeTemplate;
+
+implementation
+
+uses
+  Nfe_Destinatario, Nfe_Principal, Nfe_DadosNota, Nfe_Emitente;
+
+{$R *.dfm}
+
+procedure TNfeTemplate.ArredondarImagem(Panel : TPanel);
+var
+  rgn: HRGN;
+  dc: HDC;
+begin
+ rgn := CreateRoundRectRgn(0, 0, Panel1.Width, Panel1.Height, 350, 350);
+  dc := GetDC(Panel1.Handle);
+  SetWindowRgn(Panel1.Handle, rgn, true);
+  ReleaseDC(Panel1.Handle, dc);
+  DeleteObject(rgn);
+end;
+
+procedure TNfeTemplate.Label17Click(Sender: TObject);
+begin
+  NFeDestinatario.Parent := NfePrincipal.Panel8;
+  NFeDestinatario.Show;
+end;
+
+procedure TNfeTemplate.Label1Click(Sender: TObject);
+begin
+  NfeDadosDaNota.Parent := NfePrincipal.Panel8;
+  NfeDadosDaNota.Show;
+end;
+
+procedure TNfeTemplate.Label8Click(Sender: TObject);
+begin
+  NFeEmitente.Parent := NfePrincipal.Panel8;
+  NFeEmitente.Show;
+
+end;
+
+end.

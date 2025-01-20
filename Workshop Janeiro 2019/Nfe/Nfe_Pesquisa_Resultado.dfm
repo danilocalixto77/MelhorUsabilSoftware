@@ -1,0 +1,55 @@
+object NfePesquisaResultado: TNfePesquisaResultado
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'NfePesquisaResultado'
+  ClientHeight = 681
+  ClientWidth = 1050
+  Color = clFuchsia
+  TransparentColor = True
+  TransparentColorValue = clFuchsia
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 1050
+    Height = 681
+    Align = alClient
+    BevelOuter = bvNone
+    Color = 2500136
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 96
+    ExplicitTop = 120
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Panel2: TPanel
+      Left = 0
+      Top = 608
+      Width = 1050
+      Height = 73
+      Align = alBottom
+      BevelOuter = bvNone
+      Caption = 'SELECIONAR'
+      Color = 3618617
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWhite
+      Font.Height = -13
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 0
+      OnClick = Panel2Click
+      ExplicitWidth = 485
+    end
+  end
+end

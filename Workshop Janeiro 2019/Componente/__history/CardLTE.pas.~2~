@@ -1,0 +1,50 @@
+unit CardLTE;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TLTECard = class(TFrame)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    lbTextTitle: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Shape1: TShape;
+    Shape2: TShape;
+    Image1: TImage;
+  private
+    FTextTitle: String;
+    procedure SetTextTitle(const Value: String);
+    { Private declarations }
+  public
+    { Public declarations }
+  published
+    property TextTitle : String read FTextTitle write SetTextTitle;
+  end;
+
+procedure Register;
+
+implementation
+
+{$R *.dfm}
+
+procedure Register;
+begin
+  RegisterComponents('LTE Components', [TLTECard]);
+end;
+
+{ TLTECard }
+
+procedure TLTECard.SetTextTitle(const Value: String);
+begin
+  FTextTitle := Value;
+  lbTextTitle.Caption := FTextTitle;
+end;
+
+end.

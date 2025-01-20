@@ -1,0 +1,48 @@
+inherited NfeTemplate1: TNfeTemplate1
+  Caption = 'NfeTemplate1'
+  PixelsPerInch = 96
+  TextHeight = 17
+  inherited Panel1: TPanel
+    ExplicitLeft = 0
+    ExplicitTop = 0
+    ExplicitWidth = 1075
+    ExplicitHeight = 529
+    inherited Panel2: TPanel
+      ExplicitWidth = 1075
+      inherited Label3: TLabel
+        Caption = 'Produtos e Servi'#231'os'
+      end
+    end
+    inherited Panel3: TPanel
+      ExplicitLeft = 0
+      ExplicitTop = 48
+      ExplicitWidth = 1075
+      ExplicitHeight = 481
+      inherited Panel13: TPanel
+        ExplicitLeft = 0
+        ExplicitHeight = 432
+        inherited Panel15: TPanel
+          ExplicitLeft = 15
+          ExplicitTop = 15
+          ExplicitWidth = 195
+          ExplicitHeight = 402
+        end
+      end
+      inherited Panel10: TPanel
+        ExplicitLeft = 225
+        ExplicitTop = 0
+        ExplicitWidth = 850
+        ExplicitHeight = 432
+        inherited Panel11: TPanel
+          ExplicitLeft = 0
+          ExplicitTop = 15
+          ExplicitWidth = 835
+          ExplicitHeight = 402
+        end
+      end
+      inherited Panel16: TPanel
+        ExplicitTop = 432
+      end
+    end
+  end
+end

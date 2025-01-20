@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/16 16:21:51.000.941,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2019/01/16 16:21:58.000.953,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2019/01/16 16:23:26.000.085,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2019/01/16 16:24:12.000.208,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit6.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit6.pas</Transaction>
+    <Transaction>2019/01/16 16:24:12.000.208,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit6.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit6.dfm</Transaction>
+    <Transaction>2019/01/16 16:24:13.000.877,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit7.pas</Transaction>
+    <Transaction>2019/01/16 16:24:13.000.877,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit7.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit7.dfm</Transaction>
+    <Transaction>2019/01/16 16:24:15.000.925,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit8.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit8.pas</Transaction>
+    <Transaction>2019/01/16 16:24:15.000.925,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit8.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit8.dfm</Transaction>
+    <Transaction>2019/01/16 16:24:18.000.135,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Project2.dproj</Transaction>
+    <Transaction>2019/01/25 09:43:53.000.030,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 10:30:39.000.049,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/01/25 10:34:24.000.589,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Destinatario.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.dfm</Transaction>
+    <Transaction>2019/01/25 10:34:24.000.589,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Destinatario.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/01/25 10:37:41.000.780,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Principal.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2019/01/25 10:37:41.000.780,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Principal.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 14:05:14.000.565,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 14:06:16.000.033,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Pesquisa.pas</Transaction>
+    <Transaction>2019/01/25 14:06:16.000.033,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Pesquisa.dfm</Transaction>
+    <Transaction>2019/01/25 14:40:35.000.291,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/01/25 14:41:10.000.206,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Pesquisa_Resultado.dfm</Transaction>
+    <Transaction>2019/01/25 14:41:10.000.206,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Pesquisa_Resultado.pas</Transaction>
+    <Transaction>2019/01/25 15:20:17.000.933,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/01/25 15:20:25.000.974,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Fundo.dfm</Transaction>
+    <Transaction>2019/01/25 15:20:25.000.974,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit2.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Fundo.pas</Transaction>
+    <Transaction>2019/01/25 15:23:47.000.983,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Fundo.pas=</Transaction>
+    <Transaction>2019/01/25 15:23:50.000.760,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 15:24:46.000.176,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Frm_Fundo.dfm</Transaction>
+    <Transaction>2019/01/25 15:24:46.000.176,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Frm_Fundo.pas</Transaction>
+    <Transaction>2019/01/25 15:41:58.000.283,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 15:42:10.000.733,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.dfm</Transaction>
+    <Transaction>2019/01/25 15:42:10.000.733,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.pas</Transaction>
+    <Transaction>2019/01/25 15:42:56.000.331,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Template.dfm</Transaction>
+    <Transaction>2019/01/25 15:42:56.000.331,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Template.pas</Transaction>
+    <Transaction>2019/01/25 15:45:19.000.017,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 15:45:24.000.741,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.dfm</Transaction>
+    <Transaction>2019/01/25 15:45:24.000.741,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.pas</Transaction>
+    <Transaction>2019/01/25 16:40:44.000.171,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 16:41:08.000.135,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_DadosNota.pas</Transaction>
+    <Transaction>2019/01/25 16:41:08.000.135,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_DadosNota.dfm</Transaction>
+    <Transaction>2019/01/25 17:19:07.000.310,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicio.pas=</Transaction>
+    <Transaction>2019/01/25 17:19:26.000.158,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 17:26:36.000.048,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicial.dfm</Transaction>
+    <Transaction>2019/01/25 17:26:36.000.048,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Inicial.pas</Transaction>
+    <Transaction>2019/01/25 17:30:51.000.181,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 17:31:46.000.102,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Emitente.dfm</Transaction>
+    <Transaction>2019/01/25 17:31:46.000.102,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Emitente.pas</Transaction>
+    <Transaction>2019/01/25 17:46:33.000.819,=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 17:47:29.000.292,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.dfm=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Produtos.dfm</Transaction>
+    <Transaction>2019/01/25 17:47:29.000.292,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Unit1.pas=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe_Produtos.pas</Transaction>
+    <Transaction>2019/01/26 08:25:54.498,C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Nfe.dproj=C:\Users\thuli\Desktop\Nova pasta (2)\Delphi\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,30 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, softMeter_globalVar;
+
+type
+  TForm6 = class(TForm)
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm6.FormCreate(Sender: TObject);
+begin
+  dllSoftMeter.sendScreenView('Tela Principal');
+end;
+
+end.

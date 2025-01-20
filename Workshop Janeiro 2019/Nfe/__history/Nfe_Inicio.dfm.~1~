@@ -1,0 +1,5 @@
+inherited NfeTemplate1: TNfeTemplate1
+  Caption = 'NfeTemplate1'
+  PixelsPerInch = 96
+  TextHeight = 13
+end

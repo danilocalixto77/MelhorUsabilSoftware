@@ -1,0 +1,34 @@
+unit Nfe_Inicio;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Nfe_Template, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TNfeTemplate1 = class(TNfeTemplate)
+    Panel4: TPanel;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    Panel7: TPanel;
+    Panel8: TPanel;
+    Panel9: TPanel;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  NfeTemplate1: TNfeTemplate1;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,93 @@
+unit Nfe_Pesquisa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TNfePesquisa = class(TForm)
+    Panel1: TPanel;
+    Edit1: TEdit;
+    Image2: TImage;
+    procedure FormCreate(Sender: TObject);
+    procedure FormMouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
+    procedure FormShow(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Edit1KeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  NfePesquisa: TNfePesquisa;
+
+implementation
+
+uses
+  Nfe_Pesquisa_Resultado;
+
+{$R *.dfm}
+
+procedure MakeRounded(Control: TWinControl);
+var
+  R: TRect;
+  Rgn: HRGN;
+begin
+  with Control do
+  begin
+    R := ClientRect;
+    rgn := CreateRoundRectRgn(R.Left, R.Top, R.Right, R.Bottom, 10, 10);
+    Perform(EM_GETRECT, 0, lParam(@r));
+    InflateRect(r, - 3, - 3);
+    Perform(EM_SETRECTNP, 0, lParam(@r));
+    SetWindowRgn(Handle, rgn, True);
+    Invalidate;
+  end;
+end;
+
+
+procedure TNfePesquisa.Button1Click(Sender: TObject);
+begin
+  Canvas.LineTo (Edit1.Left, (Edit1.Width - Edit1.Left));
+
+  with TControlCanvas.Create do
+begin
+  Control := Edit1;
+  Rectangle(0, Edit1.Height - 10, Edit1.Width, Edit1.Height - 10);
+  Free;
+end;
+end;
+
+procedure TNfePesquisa.Edit1KeyPress(Sender: TObject; var Key: Char);
+begin
+  if Key = #13 then
+    NfePesquisaResultado.ShowModal.
+end;
+
+procedure TNfePesquisa.FormCreate(Sender: TObject);
+begin
+  MakeRounded(Edit1);
+  Self.Top := 25;
+  Self.Left := Round((Screen.Width - Self.Width) / 2);
+end;
+
+procedure TNfePesquisa.FormMouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+begin
+
+  Canvas.FillRect (ClientRect);
+  Canvas.MoveTo (0, 0);
+  Canvas.LineTo (X, Y);
+end;
+
+procedure TNfePesquisa.FormShow(Sender: TObject);
+begin
+  Canvas.LineTo (Edit1.Left, (Edit1.Width - Edit1.Left));
+end;
+
+end.

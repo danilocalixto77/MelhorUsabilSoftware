@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/26 10:33:36.000.734,=rtl.dcp</Transaction>
+    <Transaction>2019/01/26 10:33:59.000.094,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\thuli\Desktop\Workshop\Componente\CardLTE.dproj</Transaction>
+    <Transaction>2019/01/26 10:36:38.000.283,=C:\Users\thuli\Desktop\Workshop\Componente\Unit1.pas</Transaction>
+    <Transaction>2019/01/26 10:52:39.000.519,=vclimg.dcp</Transaction>
+    <Transaction>2019/01/26 10:52:39.000.543,=vcl.dcp</Transaction>
+    <Transaction>2019/01/26 10:57:37.000.099,C:\Users\thuli\Desktop\Workshop\Componente\Unit1.dfm=C:\Users\thuli\Desktop\Workshop\Componente\CardLTE.dfm</Transaction>
+    <Transaction>2019/01/26 10:57:37.000.099,C:\Users\thuli\Desktop\Workshop\Componente\Unit1.pas=C:\Users\thuli\Desktop\Workshop\Componente\CardLTE.pas</Transaction>
+  </Transactions>
+</BorlandProject>

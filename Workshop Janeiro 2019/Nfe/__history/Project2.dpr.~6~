@@ -1,0 +1,24 @@
+﻿program Project2;
+
+uses
+  Vcl.Forms,
+  Unit6 in 'Unit6.pas' {Form6},
+  Unit7 in 'Unit7.pas' {Form7},
+  Unit8 in 'Unit8.pas' {Form8},
+  Nfe_Principal in 'Nfe_Principal.pas' {NfePrincipal},
+  Nfe_Destinatario in 'Nfe_Destinatario.pas' {NFeDestinatario},
+  Nfe_Pesquisa in 'Nfe_Pesquisa.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TNfePrincipal, NfePrincipal);
+  Application.CreateForm(TNFeDestinatario, NFeDestinatario);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

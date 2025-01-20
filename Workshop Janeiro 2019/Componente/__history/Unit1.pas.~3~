@@ -1,0 +1,38 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TLTECard = class(TFrame)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Shape1: TShape;
+    Shape2: TShape;
+    Image1: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+procedure Register;
+
+implementation
+
+{$R *.dfm}
+
+procedure Register;
+begin
+  RegisterComponents('LTE Components', [TLTECard]);
+end;
+
+end.
