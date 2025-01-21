@@ -101,6 +101,17 @@ Após download, inserir no **library path**
 
 Passo a passo para utilização da rotina para monitoramento via Google Analytics.
 
+#### 2.26 - Fontes do Módulo
+
+
+## 3 - Pesquisa Final e Bônus (2 Aulas)
+
+#### 3.1 - Pesquisa Final
+
+#### 3.2 - Libere seu acesso ao treinamento bônus.
+
+
+
 
 
 
